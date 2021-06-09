@@ -1,6 +1,9 @@
 import { SimpleTable } from '../components/SimpleTable';
-import { SimpleTableData } from './SimpleTableData';
-import { SimpleTableData2 } from '../mocks/SimpleTableData';
+import {
+  SimpleTableData2,
+  SimpleTableData1,
+  SimpleTableData0,
+} from '../mocks/SimpleTableData';
 
 export const TableTabs = () => {
   return [
@@ -11,8 +14,8 @@ export const TableTabs = () => {
         <SimpleTable
           key={Math.random()}
           extend={false}
-          color="red"
-          tabsData={SimpleTableData()}
+          color='red'
+          tabsData={SimpleTableData0()}
         />
       ),
     },
@@ -23,8 +26,8 @@ export const TableTabs = () => {
         <SimpleTable
           key={Math.random()}
           extend={false}
-          color="red"
-          tabsData={SimpleTableData2()}
+          color='red'
+          tabsData={SimpleTableData1()}
         />
       ),
     },
@@ -35,8 +38,8 @@ export const TableTabs = () => {
         <SimpleTable
           key={Math.random()}
           extend={false}
-          color="red"
-          tabsData={SimpleTableData()}
+          color='red'
+          tabsData={SimpleTableData2()}
         />
       ),
     },

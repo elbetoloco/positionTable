@@ -1,35 +1,72 @@
-export const SimpleTableData = () => {
+export const SimpleTableData0 = () => {
   return {
     headings: [
       {
         key: 'header1',
-        value: 'First Header',
+        value: 'Emisora',
       },
       {
         key: 'header2',
-        value: 'Second Header',
+        value: 'Títulos',
       },
       {
-        key: 'header3',
-        value: 'Third Header',
+        key: 'lastHeader0',
+        value: 'Retorno Diario',
       },
     ],
 
     rows: [
       {
-        header1: 'Lorem ipsum 1',
-        header2: 356,
-        header3: '2.00300',
+        header1: 'ALFA.A',
+        header2: 1,
+        lastHeader0: '98%',
       },
       {
-        header1: 'Lorem ipsum 2',
-        header2: 454,
-        header3: '1.00000',
+        header1: 'ANGEL.10',
+        header2: 2,
+        lastHeader0: '93%',
       },
       {
-        header1: 'Lorem ipsum 3',
-        header2: 654,
-        header3: '5.00000',
+        header1: 'AUTOLAN.B',
+        header2: 3,
+        lastHeader0: '89%',
+      },
+    ],
+  };
+};
+
+export const SimpleTableData1 = () => {
+  return {
+    headings: [
+      {
+        key: 'header1',
+        value: 'Emisora',
+      },
+      {
+        key: 'header2',
+        value: 'Títulos',
+      },
+      {
+        key: 'lastHeader1',
+        value: 'Ganancia',
+      },
+    ],
+
+    rows: [
+      {
+        header1: 'ALFA.A',
+        header2: 4,
+        lastHeader1: '98%',
+      },
+      {
+        header1: 'ANGEL.10',
+        header2: 5,
+        lastHeader1: '93%',
+      },
+      {
+        header1: 'AUTOLAN.B',
+        header2: 2,
+        lastHeader1: '89%',
       },
     ],
   };
@@ -40,37 +77,40 @@ export const SimpleTableData2 = () => {
     headings: [
       {
         key: 'header1',
-        value: 'First Header',
+        value: 'Tipo',
       },
       {
         key: 'header2',
-        value: 'Second Header',
+        value: 'Emisora',
       },
       {
         key: 'header3',
-        value: 'Third Header',
+        value: 'Serie',
       },
       {
-        key: 'header4',
-        value: 'Four Header',
+        key: 'lastHeader2',
+        value: 'Titulos',
       },
     ],
 
     rows: [
       {
-        header1: 'Lorem',
-        header2: 89855,
-        header3: '7.00300',
+        header1: '1',
+        header2: 'ALFA.A',
+        header3: 'Lorem',
+        lastHeader2: '98%',
       },
       {
-        header1: 'Lorem',
-        header2: 67558,
-        header3: '8.00000',
+        header1: '2',
+        header2: 'ANGELD.10',
+        header3: 'Lorem',
+        lastHeader2: '99%',
       },
       {
-        header1: 'Lorem',
-        header2: 5655,
-        header3: '9.00000',
+        header1: '3',
+        header2: 'AUTOLAN.B',
+        header3: 'Lorem',
+        lastHeader2: '97%',
       },
     ],
   };

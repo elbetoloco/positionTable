@@ -14,7 +14,7 @@ const SimpleTableTabs = ({ title, color, tabsData }: TabsProps) => {
     return (
       <li
         key={index}
-        className="-mb-px last:mr-0 flex flex-shrink w-32 text-center cursor-pointer"
+        className='-mb-px last:mr-0 flex flex-shrink w-32 text-center cursor-pointer'
       >
         <a
           className={
@@ -29,8 +29,8 @@ const SimpleTableTabs = ({ title, color, tabsData }: TabsProps) => {
             e.preventDefault();
             setOpenTab(index);
           }}
-          data-toggle="tab"
-          role="tablist"
+          data-toggle='tab'
+          role='tablist'
         >
           {tabTitle}
         </a>
@@ -40,20 +40,20 @@ const SimpleTableTabs = ({ title, color, tabsData }: TabsProps) => {
 
   return (
     <>
-      <div className="flex flex-wrap">
-        <div className="bg-white border-2 rounded shadow-lg max-w-max overflow-ellipsis px-0 pt-2 pb-0">
-          <h1 className="font-bold text-base p-3">{title}</h1>
+      <div className='flex flex-wrap'>
+        <div className='bg-white border-2 rounded shadow-lg max-w-max overflow-ellipsis px-0 pt-2 pb-0'>
+          <h1 className='font-bold text-base p-3'>{title}</h1>
           <ul
-            className="flex mb-0 list-none flex-nowrap pt-3 flex-row"
-            role="tablist"
+            className='flex mb-0 list-none flex-nowrap pt-3 flex-row'
+            role='tablist'
           >
             {tabsData.map((tab: any, index: number) => {
               return Tab(tab.title, index + 1);
             })}
           </ul>
-          <div className="relative flex flex-col w-full">
-            <div className="py-1 flex-auto">
-              <div className="tab-content tab-space">
+          <div className='relative flex flex-col w-full'>
+            <div className='py-1 flex-auto'>
+              <div className='tab-content tab-space'>
                 {tabsData.map((tab: any, index: number) => {
                   return (
                     <div
